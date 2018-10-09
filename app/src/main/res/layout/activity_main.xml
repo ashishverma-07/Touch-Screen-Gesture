@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select an action"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:background="@android:color/holo_blue_light" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        android:onClick="addButtonClick"
+        android:background="@drawable/buttonshape"
+        android:text="@string/Add_Gesture"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/openButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:padding="5dp"
+        android:text="@string/Open_Button"
+        android:background="@drawable/buttonshape"
+        android:textSize="28sp"
+        android:onClick="testButtonClick"/>
+
+    <Button
+        android:id="@+id/editButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/buttonshape"
+        android:layout_marginTop="30dp"
+        android:padding="5dp"
+        android:onClick="editButtonClick"
+        android:text="@string/Edit"
+        android:textSize="28sp" />
+
+</LinearLayout>
